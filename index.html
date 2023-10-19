@@ -9,25 +9,26 @@
 </head>
 <body>
 <header class="header">
-    <div class="w-full gradient_header absolute md:h-40 z-50">
+    <div id="navbar" class="w-full gradient_header absolute md:h-40 z-20">
 
         <div class="container m-auto px-4">
             <div class="flex justify-between pt-5">
                 <div>
-                    <img src="assets/img/UMovies.png" alt="">
+                    <img src="assets/img/UMovies.png" class="h-6 md:h-auto" alt="">
                 </div>
                 <nav class="hidden md:block">
                     <ul class="flex m-auto  md:gap-5 lg:gap-8 mt-3 text-1xl">
-                        <li class="text-red-50">Community</li>
-                        <li class="text-red-50">News</li>
-                        <li class="text-red-50">Actors</li>
-                        <li class="text-red-50">SHOWS</li>
-                        <li class="text-red-50">Movies</li>
+                        <li class="text-red-50"><a href="#">Community</a></li>
+                        <li class="text-red-50"><a href="news.html">News</a></li>
+                        <li class="text-red-50"><a href="#">Actors</a></li>
+                        <li class="text-red-50"><a href="#">SHOWS</a></li>
+                        <li class="text-red-50"><a href="moves.html">Movies</a></li>
                     </ul>
                 </nav>
 
                 <div class="hidden md:block">
-                    <button class="bg-btn px-5 py-3 rounded-lg text-red-50 text-1xl">LOGIN / SIGNUP</button>
+                    <a href="login.html" class="bg-btn px-5 py-3 rounded-lg text-red-50 text-1xl hover:bg-red-600">LOGIN / SIGNUP
+                    </a>
                 </div>
             </div>
 
@@ -90,7 +91,8 @@
                             </span>
                             </div>
                             <div>
-                                <button class="mt-5 bg-btn font-bold px-14 py-3 rounded-lg">BOOK SHOW</button>
+                                <button class="mt-5 bg-btn font-bold px-14 py-3 rounded-lg hover:bg-red-600">BOOK SHOW
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -339,7 +341,7 @@
             <div class="flex flex-row justify-between">
 
                 <div>
-                    <span>Top Actions</span>
+                    <span>Top Actors</span>
                     <h2 class="md:text-2xl  font-bold">RECOMMENDED MOVIES</h2>
                 </div>
                 <div class="mt-5">
@@ -363,7 +365,7 @@
 
                                     <a>
                                         <div class="gradient_img hidden group-hover:block hover:cursor-pointer absolute h-full w-full  text-3xl rounded-lg top-0">
-                                            <svg class="m-auto mt-5" xmlns="http://www.w3.org/2000/svg" width="55"
+                                            <svg class="m-auto mt-14" xmlns="http://www.w3.org/2000/svg" width="55"
                                                  height="55"
                                                  viewBox="0 0 55 55" fill="none">
                                                 <g filter="url(#filter0_d_0_80)">
@@ -468,7 +470,7 @@
                                     <img src="assets/img/Bitmap1.png" class="rounded-lg" alt="">
                                     <a>
                                         <div class="gradient_img hidden group-hover:block hover:cursor-pointer absolute h-full w-full  text-3xl rounded-lg top-0">
-                                            <svg class="m-auto mt-5" xmlns="http://www.w3.org/2000/svg" width="55"
+                                            <svg class="m-auto mt-14" xmlns="http://www.w3.org/2000/svg" width="55"
                                                  height="55"
                                                  viewBox="0 0 55 55" fill="none">
                                                 <g filter="url(#filter0_d_0_80)">
@@ -575,7 +577,7 @@
 
                                     <a>
                                         <div class="gradient_img hidden group-hover:block hover:cursor-pointer absolute h-full w-full  text-3xl rounded-lg top-0">
-                                            <svg class="m-auto mt-5" xmlns="http://www.w3.org/2000/svg" width="55"
+                                            <svg class="m-auto mt-14" xmlns="http://www.w3.org/2000/svg" width="55"
                                                  height="55"
                                                  viewBox="0 0 55 55" fill="none">
                                                 <g filter="url(#filter0_d_0_80)">
@@ -685,7 +687,7 @@
 
                                     <a>
                                         <div class="gradient_img hidden group-hover:block hover:cursor-pointer absolute h-full w-full  text-3xl rounded-lg top-0">
-                                            <svg class="m-auto mt-5" xmlns="http://www.w3.org/2000/svg" width="55"
+                                            <svg class="m-auto mt-14" xmlns="http://www.w3.org/2000/svg" width="55"
                                                  height="55"
                                                  viewBox="0 0 55 55" fill="none">
                                                 <g filter="url(#filter0_d_0_80)">
@@ -817,7 +819,7 @@
             <div class="flex flex-row justify-between">
 
                 <div>
-                    <ul class="flex md:gap-5 gap-2 text-0xl md:text-1xl  text-red-50">
+                    <ul class="flex md:gap-5 gap-2 text-0xl md:text-1xl nav text-red-50">
                         <li class="active">BOLLYWOOD</li>
                         <li>HOLLYWOOD</li>
                         <li>TOLLYWOOD</li>
@@ -1343,7 +1345,7 @@
 
                                             <div class=" relative bg-cover group h-64 rounded-lg">
 
-                                                <img src="assets/img/1.png" class="rounded-lg h-full" alt="">
+                                                <img src="assets/img/1.png" class="rounded-lg h-full w-full" alt="">
 
                                                 <a>
                                                     <div class="gradient_img hidden group-hover:flex hover:cursor-pointer absolute h-full w-full  justify-center items-center  text-3xl rounded-lg top-0">
@@ -1393,7 +1395,7 @@
 
                                             <div class=" relative bg-cover group h-64 rounded-lg">
 
-                                                <img src="assets/img/2.png" class="rounded-lg h-full" alt="">
+                                                <img src="assets/img/2.png" class="rounded-lg h-full w-full" alt="">
 
                                                 <a>
                                                     <div class="gradient_img hidden group-hover:flex hover:cursor-pointer absolute h-full w-full  justify-center items-center  text-3xl rounded-lg top-0">
@@ -1443,7 +1445,7 @@
 
                                             <div class=" relative bg-cover group h-64 rounded-lg">
 
-                                                <img src="assets/img/3.png" class="rounded-lg h-full" alt="">
+                                                <img src="assets/img/3.png" class="rounded-lg h-full w-full" alt="">
 
                                                 <a>
                                                     <div class="gradient_img hidden group-hover:flex hover:cursor-pointer absolute h-full w-full  justify-center items-center  text-3xl rounded-lg top-0">
@@ -1492,7 +1494,7 @@
                                         <div class="static">
                                             <div class=" relative bg-cover group h-64 rounded-lg">
 
-                                                <img src="assets/img/4.png" class="rounded-lg h-full" alt="">
+                                                <img src="assets/img/4.png" class="rounded-lg h-full w-full" alt="">
 
                                                 <a>
                                                     <div class="gradient_img hidden group-hover:flex hover:cursor-pointer absolute h-full w-full  justify-center items-center  text-3xl rounded-lg top-0">
@@ -1548,11 +1550,13 @@
     </section>
 
     <section class="pt-20 text-white">
-        <div class="flex  flex-col  justify-between">
+        <div class="flex  flex-col box-border justify-between">
 
-            <div class=" container p-4 m-auto mb-3">
-                <span>Trending</span>
-                <h2 class="md:text-2xl  font-bold borde mb-2">Latest News</h2>
+            <div class=" container  m-auto mb-3">
+                <div class="ml-3 md:ml-0">
+                    <span>Trending</span>
+                    <h2 class="md:text-2xl  font-bold borde mb-2">Latest News</h2>
+                </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="1" viewBox="0 0 430 1" fill="none">
                     <path d="M0 0.5H430" stroke="white" stroke-width="0.3"/>
                 </svg>
@@ -1675,7 +1679,7 @@
                         <div class="static">
                             <div class=" relative bg-cover group h-64 rounded-lg">
 
-                                <img src="assets/img/4.png" class="rounded-lg h-full" alt="">
+                                <img src="assets/img/4.png" class="rounded-lg h-full w-full" alt="">
 
                                 <a>
                                     <div class="gradient_img hidden group-hover:flex hover:cursor-pointer absolute h-full w-full  justify-center items-center  text-3xl rounded-lg top-0">
@@ -1748,24 +1752,24 @@
     </section>
 </main>
 
-<footer class="bg-main ">
+<footer class="bg-main pb-32 md:pb-0">
     <div class="container m-auto p-4">
-        <div class="grid md:grid-cols-7   text-white mt-14">
+        <div class="grid md:grid-cols-6  grid-cols-4 md:gap-8 gap-3 text-white md:mt-14 mt-8">
 
-            <div class="col-span-2 ">
-                <img src="assets/img/UMovies.png">
-                <p  class="mt-2">
+            <div class=" col-span-2  ">
+                <img src="assets/img/UMovies.png" class="w-24 md:w-60">
+                <p class="mt-2 text-0xl md:text-xl">
                     Designed and Copyrights By<br>
                     <span class="text-red-700">Jayprakash Kachare</span>
                 </p>
                 <div class="flex gap-3 mt-2">
-                    <i class="fa-brands fa-facebook-f bg-btn p-4 rounded-lg"></i>
-                    <i class="fa-brands fa-twitter bg-gray-500 p-4 rounded-lg"></i>
-                    <i class="fa-brands fa-linkedin-in bg-gray-500 p-4 rounded-lg"></i>
+                    <i class="fa-brands fa-facebook-f bg-btn md:p-4 p-2 rounded-lg"></i>
+                    <i class="fa-brands fa-twitter bg-gray-500 md:p-4 p-2 rounded-lg"></i>
+                    <i class="fa-brands fa-linkedin-in bg-gray-500 md:p-4 p-2 rounded-lg"></i>
                 </div>
             </div>
 
-            <div class="flex flex-col col-span-2">
+            <div class="flex flex-col  col-span-2">
                 <b class="text-2xl font-medium">Quick Links</b>
                 <ul class="text-gray-500 mt-5">
                     <li>Movies</li>
@@ -1776,36 +1780,360 @@
                 </ul>
             </div>
 
-            <div class="col-span-2 flex flex-col">
-                  <b class="text-2xl font-normal">
-                      Newsletter
-                  </b>
-                <form class="md:mr-10 mt-6 w-full">
-                    <div>
-                        <div class="flex justify-between">
-                            <input type="text" class="bg-main  text-gray-500 pb-2 border-none outline-0"
-                                   placeholder="Newsletter Sign Up">
+            <div class=" col-span-1  flex flex-col">
+                <b class="text-2xl font-normal">
+                    Newsletter
+                </b>
+                <div>
+                    <form class="md:mr-10 mt-6 w-full">
+                        <div>
+                            <div class="flex justify-between">
+                                <input type="text" class="w-full bg-main  text-gray-500 pb-2 border-none outline-0"
+                                       placeholder="Newsletter Sign Up">
+                            </div>
                         </div>
+                    </form>
+                    <div class="mt-2">
+                        <svg class=" md:w-60" xmlns="http://www.w3.org/2000/svg" width="281" height="1"
+                             viewBox="0 0 281 1" fill="none">
+                            <path d="M0.358887 0.149902H280.899" stroke="white" stroke-width="0.3"/>
+                        </svg>
                     </div>
-                </form>
-                <div class="mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="281" height="1" viewBox="0 0 281 1" fill="none">
-                        <path d="M0.358887 0.149902H280.899" stroke="white" stroke-width="0.3"/>
-                    </svg>
+                </div>
+                <div>
+                    <button class="bg-btn md:px-14 px-14 py-2 mt-6  ml-5 md:ml-0 rounded-lg  hover:bg-red-600">SINGIN
+                    </button>
                 </div>
             </div>
 
-            <div>
-                <button class="bg-btn px-14 py-3 mt-12 rounded-lg">SINGIN</button>
-            </div>
+
         </div>
     </div>
 </footer>
 
+<section class="bg-footerMenu w-full  fixed mt-12 z-50 bottom-0 md:hidden block">
+    <div class="text-white flex justify-around p-5">
+        <svg stroke="#ffffff" viewBox="0 0 24 24" fill="none" width="40px" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-house" data-v-acd01b48="">
+            <path d="M14.2495 19.4994V14.9993C14.2495 14.8004 14.1704 14.6096 14.0298 14.469C13.8891 14.3283 13.6984 14.2493 13.4995 14.2493H10.4995C10.3005 14.2493 10.1098 14.3283 9.96912 14.469C9.82847 14.6096 9.74945 14.8004 9.74945 14.9993V19.4994C9.74945 19.6983 9.67045 19.889 9.52981 20.0297C9.38918 20.1703 9.19844 20.2494 8.99954 20.2494L4.50009 20.25C4.40159 20.25 4.30406 20.2306 4.21305 20.1929C4.12205 20.1552 4.03936 20.1 3.9697 20.0304C3.90005 19.9607 3.8448 19.878 3.8071 19.787C3.7694 19.696 3.75 19.5985 3.75 19.5V10.8318C3.75 10.7273 3.77183 10.624 3.8141 10.5284C3.85637 10.4329 3.91814 10.3472 3.99545 10.2769L11.4949 3.45803C11.633 3.3325 11.8129 3.26295 11.9995 3.26294C12.186 3.26293 12.3659 3.33248 12.504 3.45799L20.0045 10.2769C20.0818 10.3472 20.1436 10.4329 20.1859 10.5284C20.2282 10.624 20.25 10.7274 20.25 10.8319V19.5C20.25 19.5985 20.2306 19.696 20.1929 19.787C20.1552 19.878 20.1 19.9607 20.0303 20.0304C19.9606 20.1 19.878 20.1552 19.7869 20.1929C19.6959 20.2306 19.5984 20.25 19.4999 20.25L14.9994 20.2494C14.8005 20.2494 14.6097 20.1703 14.4691 20.0297C14.3285 19.889 14.2494 19.6983 14.2495 19.4994V19.4994Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+
+        <svg stroke="#ffffff" id="hamburger_menu" viewBox="0 0 24 24" fill="none" width="40px"
+             xmlns="http://www.w3.org/2000/svg" class="i30con-list" data-v-acd01b48="">
+            <path d="M3.75 12H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3.75 6H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3.75 18H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+        </svg>
+
+        <svg width="40px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-newspaper" data-v-acd01b48="">
+            <path d="M9 10.5H16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M9 13.5H16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3 18.75C3.39782 18.75 3.77936 18.592 4.06066 18.3107C4.34196 18.0294 4.5 17.6478 4.5 17.25V6C4.5 5.80109 4.57902 5.61032 4.71967 5.46967C4.86032 5.32902 5.05109 5.25 5.25 5.25H20.25C20.4489 5.25 20.6397 5.32902 20.7803 5.46967C20.921 5.61032 21 5.80109 21 6V17.25C21 17.6478 20.842 18.0294 20.5607 18.3107C20.2794 18.592 19.8978 18.75 19.5 18.75H3Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+            <path d="M3 18.75C2.60218 18.75 2.22064 18.592 1.93934 18.3107C1.65804 18.0294 1.5 17.6478 1.5 17.25V8.25"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+
+        <svg width="40px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-signIn" data-v-acd01b48="">
+            <path d="M8.81323 16.4375L12.7497 12.5L8.81323 8.5625" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" data-v-acd01b48=""></path>
+            <path d="M2.25 12.5H12.7472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M12.75 4.25H18C18.1989 4.25 18.3897 4.32902 18.5303 4.46967C18.671 4.61032 18.75 4.80109 18.75 5V20C18.75 20.1989 18.671 20.3897 18.5303 20.5303C18.3897 20.671 18.1989 20.75 18 20.75H12.75"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+    </div>
+</section>
+
+<section class=" hidden   h-screen w-full   fixed left-0 bottom-0 z-40 rounded-lg" id="menu">
+    <div class="w-full bg-footerMenu h-5/6 bottom-0 overflow-scroll absolute p-5">
+        <ul class="flex flex-col gap-8">
+
+            <li class="fixed flex-row w-full">
+                <div>
+                    <i id="close" class="fa-regular fa-circle-xmark text-white text-2xl"></i>
+                </div>
+                <div class=" flex justify-center -mt-10">
+                    <img src="assets/img/UMovies.png"  alt="">
+                </div>
+            </li>
+            <li class="mt-12">
+                <div class="flex justify-between">
+                    <div class="flex text-red-600">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             class="i30con-video-camera __web-inspector-hide-shortcut__" data-v-acd01b48="">
+                            <path d="M2.25 5.625H14.25C15.0456 5.625 15.8087 5.94107 16.3713 6.50368C16.9339 7.06629 17.25 7.82935 17.25 8.625V17.625C17.25 17.8239 17.171 18.0147 17.0303 18.1553C16.8897 18.296 16.6989 18.375 16.5 18.375H4.5C3.70435 18.375 2.94129 18.0589 2.37868 17.4963C1.81607 16.9337 1.5 16.1706 1.5 15.375V6.375C1.5 6.17609 1.57902 5.98532 1.71967 5.84467C1.86032 5.70402 2.05109 5.625 2.25 5.625V5.625Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M17.25 10.5L22.5 7.5V16.5L17.25 13.5" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Move</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-tv" data-v-acd01b48="">
+                            <path d="M20.25 6.75024H3.75C3.33579 6.75024 3 7.08603 3 7.50024V18.7502C3 19.1645 3.33579 19.5002 3.75 19.5002H20.25C20.6642 19.5002 21 19.1645 21 18.7502V7.50024C21 7.08603 20.6642 6.75024 20.25 6.75024Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M7.5 2.25024L12 6.75024L16.5 2.25024" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Serial</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-smiley-wink" data-v-acd01b48="">
+                            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M8.625 11.25C9.24632 11.25 9.75 10.7463 9.75 10.125C9.75 9.50368 9.24632 9 8.625 9C8.00368 9 7.5 9.50368 7.5 10.125C7.5 10.7463 8.00368 11.25 8.625 11.25Z"
+                                  fill="currentcolor" data-v-acd01b48=""></path>
+                            <path d="M14.25 10.125H16.5" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                            <path d="M15.898 14.2498C15.5029 14.9339 14.9347 15.5021 14.2504 15.8971C13.5662 16.2921 12.79 16.5 11.9999 16.5C11.2099 16.5 10.4337 16.2921 9.74944 15.8971C9.06519 15.5021 8.49694 14.934 8.10181 14.2498"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Anime</span>
+                    </div>
+                </div>
+            </li>
+            <li class="archive ">
+                <div class="flex justify-between">
+                    <div class="flex text-red-600">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-archive" data-v-acd01b48="">
+                            <path d="M21 5.25H3C2.58579 5.25 2.25 5.58579 2.25 6V8.25C2.25 8.66421 2.58579 9 3 9H21C21.4142 9 21.75 8.66421 21.75 8.25V6C21.75 5.58579 21.4142 5.25 21 5.25Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M20.25 9V18C20.25 18.1989 20.171 18.3897 20.0303 18.5303C19.8897 18.671 19.6989 18.75 19.5 18.75H4.5C4.30109 18.75 4.11032 18.671 3.96967 18.5303C3.82902 18.3897 3.75 18.1989 3.75 18V9"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M9.75 12.75H14.25" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Archive</span>
+                    </div>
+                    <div class=" arrow_menu">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-arrow" data-v-acd01b48="">
+                            <path d="M4.5 15L12 7.5L19.5 15" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="border-red-700 border-solid border_menu border-b-2"></div>
+                <div class="archive_popup hidden rounded-lg p-3 overflow-scroll w-full mt-4 h-60 ">
+                    <ul>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="archive">
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-dotsnine" data-v-acd01b48="">
+                            <path d="M5.625 6.75C6.24632 6.75 6.75 6.24632 6.75 5.625C6.75 5.00368 6.24632 4.5 5.625 4.5C5.00368 4.5 4.5 5.00368 4.5 5.625C4.5 6.24632 5.00368 6.75 5.625 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 6.75C12.6213 6.75 13.125 6.24632 13.125 5.625C13.125 5.00368 12.6213 4.5 12 4.5C11.3787 4.5 10.875 5.00368 10.875 5.625C10.875 6.24632 11.3787 6.75 12 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 6.75C18.9963 6.75 19.5 6.24632 19.5 5.625C19.5 5.00368 18.9963 4.5 18.375 4.5C17.7537 4.5 17.25 5.00368 17.25 5.625C17.25 6.24632 17.7537 6.75 18.375 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M5.625 13.125C6.24632 13.125 6.75 12.6213 6.75 12C6.75 11.3787 6.24632 10.875 5.625 10.875C5.00368 10.875 4.5 11.3787 4.5 12C4.5 12.6213 5.00368 13.125 5.625 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 13.125C12.6213 13.125 13.125 12.6213 13.125 12C13.125 11.3787 12.6213 10.875 12 10.875C11.3787 10.875 10.875 11.3787 10.875 12C10.875 12.6213 11.3787 13.125 12 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 13.125C18.9963 13.125 19.5 12.6213 19.5 12C19.5 11.3787 18.9963 10.875 18.375 10.875C17.7537 10.875 17.25 11.3787 17.25 12C17.25 12.6213 17.7537 13.125 18.375 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M5.625 19.5C6.24632 19.5 6.75 18.9963 6.75 18.375C6.75 17.7537 6.24632 17.25 5.625 17.25C5.00368 17.25 4.5 17.7537 4.5 18.375C4.5 18.9963 5.00368 19.5 5.625 19.5Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 19.5C12.6213 19.5 13.125 18.9963 13.125 18.375C13.125 17.7537 12.6213 17.25 12 17.25C11.3787 17.25 10.875 17.7537 10.875 18.375C10.875 18.9963 11.3787 19.5 12 19.5Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 19.5C18.9963 19.5 19.5 18.9963 19.5 18.375C19.5 17.7537 18.9963 17.25 18.375 17.25C17.7537 17.25 17.25 17.7537 17.25 18.375C17.25 18.9963 17.7537 19.5 18.375 19.5Z"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class="text-white mt-1 ml-2">Genre</span>
+                    </div>
+                    <div class=" arrow_menu">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-arrow" data-v-acd01b48="">
+                            <path d="M4.5 15L12 7.5L19.5 15" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="border-red-700 border-solid border_menu border-b-2"></div>
+                <div class="archive_popup hidden rounded-lg p-3 overflow-scroll w-full mt-4 h-60 ">
+                    <ul>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-info" data-v-acd01b48="">
+                            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M11.25 11.25H12V16.5H12.75" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                            <path d="M11.8125 9C12.4338 9 12.9375 8.49632 12.9375 7.875C12.9375 7.25368 12.4338 6.75 11.8125 6.75C11.1912 6.75 10.6875 7.25368 10.6875 7.875C10.6875 8.49632 11.1912 9 11.8125 9Z"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Contact Us</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
 <script rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<!--Header-->
+
 <script>
+    <!--Header-->
     var swiper = new Swiper(".mySwiper", {
         pagination: {
             el: ".swiper-pagination",
@@ -1929,7 +2257,7 @@
         },
     });
 
-    //     actors
+
     var BestFilms = new Swiper(".BestFilms ", {
         slidesPerView: 3,
         spaceBetween: 10,
@@ -2004,5 +2332,7 @@
 
     });
 </script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

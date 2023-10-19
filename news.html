@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+<section class="relative z-0 h-full w-full">
+    <div class=" absolute h-full w-full" style="z-index: -1">
+        <img src="assets/img/johnny-depp.webp" class="w-full h-full object-cover" alt="">
+        <span class="glasses absolute z-10 w-full h-full top-0 left-0"></span>
+    </div>
+
+    <!--    navbar-->
+    <section class="w-full gradient_header absolute z-40 md:h-24 top-0  hidden md:block">
+
+        <div class="container m-auto px-4 ">
+            <div class="flex justify-between pt-5">
+                <div>
+                    <img src="assets/img/UMovies.png" alt="">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex m-auto  md:gap-5 lg:gap-8 mt-3 text-1xl">
+                        <li class="text-red-50"><a href="#">Community</a></li>
+                        <li class="text-red-50"><a href="news.html">News</a></li>
+                        <li class="text-red-50"><a href="#">Actors</a></li>
+                        <li class="text-red-50"><a href="#">SHOWS</a></li>
+                        <li class="text-red-50"><a href="moves.html">Movies</a></li>
+                    </ul>
+                </nav>
+
+                <div class="hidden md:block">
+                    <button class="bg-btn px-3 py-2 rounded-lg text-red-50 text-1xl">LOGIN / SIGNUP</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class=" z-20 w-full  h-full top-0  md:pt-24 ">
+        <div class="container m-auto  p-4">
+            <div class=" xl:w-1/2 m-auto">
+                <img src="assets/img/johnny-depp.webp" class="object-cover rounded-t-lg" alt="">
+                <div class="bg-singleBody rounded-b-lg">
+                    <div class="flex p-2 justify-between">
+                        <div class="flex">
+                            <svg width="24" stroke="#f84444" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-clock">
+                                <path data-v-acd01b48=""
+                                      d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                      stroke-width="1.5" stroke-miterlimit="10"></path>
+                                <path data-v-acd01b48="" d="M12 6.75V12H17.25" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="text-gray-500 ml-1">study period : 2 min</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-linkHover hover:stroke-amber-50"
+                                 stroke="#279eda" width="28" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-facebook">
+                                <path data-v-acd01b48=""
+                                      d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48=""
+                                      d="M15.75 8.25H14.25C13.6533 8.25 13.081 8.48705 12.659 8.90901C12.2371 9.33097 12 9.90326 12 10.5V21"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48="" d="M9 13.5H15" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"></path>
+                            </svg>
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-red-900 hover:stroke-amber-50"
+                                 stroke="#cc2c28" width="28" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-mail">
+                                <path data-v-acd01b48=""
+                                      d="M3 5.25H21V18C21 18.1989 20.921 18.3897 20.7803 18.5303C20.6397 18.671 20.4489 18.75 20.25 18.75H3.75C3.55109 18.75 3.36032 18.671 3.21967 18.5303C3.07902 18.3897 3 18.1989 3 18V5.25Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48="" d="M21 5.25L12 13.5L3 5.25" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-linkHover hover:stroke-amber-50"
+                                 stroke="#50abf1" width="28" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-twitter">
+                                <path data-v-acd01b48=""
+                                      d="M12 8.25027C12.0001 7.38867 12.2968 6.55337 12.8403 5.8848C13.3838 5.21624 14.1409 4.75517 14.9843 4.57913C15.8277 4.40309 16.7061 4.5228 17.4716 4.91814C18.2371 5.31348 18.8432 5.96034 19.188 6.74997L22.5 6.75L19.4754 9.77461C19.2785 12.8168 17.9311 15.67 15.707 17.7548C13.4828 19.8397 10.5486 20.9999 7.50002 21C4.50002 21 3.75002 19.875 3.75002 19.875C3.75002 19.875 6.75002 18.75 8.25002 16.5C8.25002 16.5 2.25002 13.5 3.75002 5.25C3.75002 5.25 7.50002 9 11.9987 9.75L12 8.25027Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-green-600 hover:stroke-amber-50"
+                                 stroke="#27c34b" width="28" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-whatsapp">
+                                <path data-v-acd01b48=""
+                                      d="M4.25895 16.5934C3.14076 14.7084 2.74916 12.48 3.15768 10.3267C3.56621 8.17341 4.74675 6.24332 6.47764 4.89884C8.20852 3.55437 10.3707 2.88801 12.5581 3.0249C14.7455 3.16178 16.8078 4.09249 18.3575 5.64225C19.9073 7.19202 20.838 9.25423 20.9749 11.4417C21.1118 13.6291 20.4455 15.7912 19.101 17.5221C17.7565 19.253 15.8264 20.4336 13.6732 20.8421C11.5199 21.2507 9.29149 20.8591 7.40649 19.7409L7.40651 19.7408L4.29808 20.6289C4.16948 20.6657 4.03338 20.6674 3.90391 20.6338C3.77443 20.6003 3.65628 20.5327 3.56171 20.4381C3.46713 20.3435 3.39956 20.2254 3.36601 20.0959C3.33246 19.9664 3.33415 19.8303 3.37089 19.7017L4.25902 16.5933L4.25895 16.5934Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48=""
+                                      d="M14.2607 17.25C13.274 17.2514 12.2967 17.0581 11.3848 16.6811C10.4729 16.3042 9.64441 15.751 8.9467 15.0533C8.24899 14.3556 7.69582 13.5271 7.31887 12.6152C6.94192 11.7033 6.74861 10.726 6.75001 9.73934C6.75224 9.04482 7.02986 8.37953 7.52196 7.88943C8.01406 7.39932 8.68047 7.12441 9.375 7.125V7.125C9.48892 7.125 9.60081 7.15512 9.69934 7.21229C9.79787 7.26947 9.87953 7.35168 9.93605 7.45059L11.0321 9.36865C11.0982 9.48432 11.1323 9.61551 11.1309 9.74873C11.1294 9.88195 11.0926 10.0124 11.024 10.1266L10.1438 11.5937C10.5967 12.5986 11.4014 13.4033 12.4063 13.8562V13.8562L13.8734 12.976C13.9876 12.9074 14.118 12.8706 14.2513 12.8691C14.3845 12.8677 14.5157 12.9018 14.6313 12.9679L16.5494 14.064C16.6483 14.1205 16.7305 14.2021 16.7877 14.3007C16.8449 14.3992 16.875 14.5111 16.875 14.625V14.625C16.873 15.3187 16.5973 15.9837 16.1077 16.4752C15.6182 16.9667 14.9544 17.2452 14.2607 17.25V17.25Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-indigo-800 hover:stroke-amber-50"
+                                 stroke="#279eda" width="28" data-v-acd01b48="" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-telegram">
+                                <path data-v-acd01b48=""
+                                      d="M8.25 12.6443L16.6797 20.0625C16.7773 20.1484 16.8954 20.2074 17.0226 20.2338C17.1498 20.2602 17.2817 20.2532 17.4054 20.2133C17.529 20.1734 17.6402 20.1021 17.728 20.0063C17.8158 19.9106 17.8772 19.7937 17.9063 19.667L21.4325 4.27959C21.463 4.14655 21.4566 4.00771 21.414 3.87804C21.3715 3.74837 21.2943 3.63277 21.1909 3.54371C21.0874 3.45466 20.9617 3.39551 20.8271 3.37265C20.6925 3.3498 20.5543 3.36409 20.4273 3.414L3.12505 10.2113C2.97426 10.2705 2.8467 10.377 2.76147 10.5148C2.67624 10.6526 2.63791 10.8142 2.65223 10.9756C2.66654 11.137 2.73273 11.2894 2.84088 11.41C2.94903 11.5307 3.09334 11.613 3.2522 11.6448L8.25 12.6443Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48="" d="M8.25 12.6442L21.0105 3.42822" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48=""
+                                      d="M12.46 16.3491L9.53033 19.2788C9.42544 19.3837 9.2918 19.4551 9.14632 19.4841C9.00083 19.513 8.85003 19.4982 8.71299 19.4414C8.57594 19.3846 8.45881 19.2885 8.3764 19.1652C8.29399 19.0418 8.25 18.8968 8.25 18.7485V12.6443"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <svg class=" hover:cursor-pointer p-0.5 rounded-md hover:bg-gray-500 hover:stroke-amber-50"
+                                 stroke="#808080" data-v-acd01b48="" width="28" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-copy">
+                                <path data-v-acd01b48="" d="M20.2493 17.2496V3.74951H6.74869" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path data-v-acd01b48="" d="M17.2493 6.74951H3.74872V20.2495H17.2493V6.74951Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!--main-->
+                    <div class="text-white p-2 pb-8">
+                        <h1 class="md:text-2xl text-1xl font-medium mb-5">Johnny Depp is becoming Johnny Depp again;
+                            Warning of the
+                            actor's relatives: he does not know when to stop drinking; Injury is an excuse; Too old to
+                            be a rock star</h1>
+                        <b class="md:text-1xl text-sm font-bold md:font-medium ">Depp may not return to his prime.</b>
+                        <p class="text-sm mt-3 ">
+                            After his legal victory over his ex-wife Amber Heard in a Virginia defamation court, Johnny
+                            Depp has yet to join a major Hollywood film and has instead appeared a few times with the
+                            Hollywood Vampires group. While Depp is rumored to be joining the "Star Wars" franchise, a
+                            new report claims that friends and family of the "Pirates of the Caribbean" and most
+                            recently Jeanne du Barry actor are concerned. He again endangers his health by excessive
+                            drinking.
+                        </p>
+
+                        <div class="flex md:flex-row flex-col  mt-8">
+                            <img src="assets/img/johnny-depp-truth-ring-1-300x210.jpg" class="rounded-lg m-auto md:ml-0"
+                                 alt="">
+                            <div class="ml-3">
+                                <p class="text-sm">
+                                    Life and Style magazine reported that several performances of "Hollywood Vampires"
+                                    were canceled due to Depp's excessive drinking. Previously, the reason for the
+                                    cancellation of the actor's concerts was reported to be his injury, but some time
+                                    later, it was unofficially claimed that Depp passed out in a hotel before a concert.
+                                </p>
+                                <p class="mt-5 text-sm">
+                                    "Johnny's friends are afraid the fun will get the better of him once again," a
+                                    source told the publication. Some claim his drinking is so bad they want to stage an
+                                    intervention."
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <p class="mt-3 text-sm">
+                            The source continues: "The [Hollywood Vampires] crew are very angry but also worried...
+                            [Depp] doesn't know when to stop [drinking]."
+                        </p>
+                        <p class="mt-3 text-sm">Another source says, "We've heard all the sordid details and seen the
+                            shocking
+                            video of him at his worst," adding that he's "still reeling from the Amber incident,"
+                            according to some. "He's known for falling, getting back up, picking himself up and moving
+                            on, but he can't live like that forever, and at some point, he's going to lose something,"
+                            he continues. Johnny is too old to act like a young rock star. It will not be restored like
+                            in the past."</p>
+                        <p class="mt-3 text-sm">
+                            Heard said in a Virginia court that his ex-husband passed out several times and turned into
+                            a completely different "terrible creature" by drinking alcohol: "This guy would lose control
+                            of his feces and I would clean him up. He would pass out on his own vomit... no one would
+                            tell him anything. "No one was honest with him."
+                        </p>
+
+                    </div>
+                    <div class=" p-2 flex">
+                        <div class="flex">
+                            <svg width="25" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" class="i30con-calendar-blank" data-v-acd01b48="">
+                                <path d="M19.5 3.75H4.5C4.08579 3.75 3.75 4.08579 3.75 4.5V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V4.5C20.25 4.08579 19.9142 3.75 19.5 3.75Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                                <path d="M16.5 2.25V5.25" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                                <path d="M7.5 2.25V5.25" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                                <path d="M3.75 8.25H20.25" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                            </svg>
+                            <span class="text-red-700 ml-2 text-sm mt-1">September - October 2023</span>
+                        </div>
+                        <div class="flex ml-3">
+                            <svg width="24px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                 class="i30con-chat-circle-text" data-v-acd01b48="">
+                                <path d="M4.25895 16.5936C3.14076 14.7086 2.74916 12.4802 3.15768 10.3269C3.56621 8.17365 4.74675 6.24356 6.47764 4.89909C8.20853 3.55462 10.3707 2.88826 12.5581 3.02514C14.7455 3.16202 16.8078 4.09273 18.3575 5.6425C19.9073 7.19226 20.838 9.25448 20.9749 11.4419C21.1118 13.6293 20.4455 15.7915 19.101 17.5224C17.7565 19.2533 15.8264 20.4338 13.6732 20.8424C11.5199 21.2509 9.29149 20.8593 7.40649 19.7411L7.40651 19.741L4.29808 20.6292C4.16947 20.6659 4.03338 20.6676 3.90391 20.634C3.77443 20.6005 3.65628 20.5329 3.5617 20.4384C3.46713 20.3438 3.39956 20.2256 3.36601 20.0961C3.33246 19.9667 3.33415 19.8306 3.37089 19.702L4.25901 16.5935L4.25895 16.5936Z"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                                <path d="M9 10.5H15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                                <path d="M9 13.5H15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                      data-v-acd01b48=""></path>
+                            </svg>
+                        <span class="ml-1 text-red-700">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="bg-singleBody text-white pb-5">
+    <div class="flex p-2 ">
+        <svg width="25px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-chat-circle-text" data-v-acd01b48="">
+            <path d="M4.25895 16.5936C3.14076 14.7086 2.74916 12.4802 3.15768 10.3269C3.56621 8.17365 4.74675 6.24356 6.47764 4.89909C8.20853 3.55462 10.3707 2.88826 12.5581 3.02514C14.7455 3.16202 16.8078 4.09273 18.3575 5.6425C19.9073 7.19226 20.838 9.25448 20.9749 11.4419C21.1118 13.6293 20.4455 15.7915 19.101 17.5224C17.7565 19.2533 15.8264 20.4338 13.6732 20.8424C11.5199 21.2509 9.29149 20.8593 7.40649 19.7411L7.40651 19.741L4.29808 20.6292C4.16947 20.6659 4.03338 20.6676 3.90391 20.634C3.77443 20.6005 3.65628 20.5329 3.5617 20.4384C3.46713 20.3438 3.39956 20.2256 3.36601 20.0961C3.33246 19.9667 3.33415 19.8306 3.37089 19.702L4.25901 16.5935L4.25895 16.5936Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+            <path d="M9 10.5H15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M9 13.5H15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+        </svg>
+        <span class="ml-2">
+            Comments
+        </span>
+    </div>
+    <!-- send comment-->
+    <div class="md:px-20">
+        <form class="w-full">
+            <div class="flex justify-end mr-2  md:mr-5">
+                <span class="rounded-t-lg text-1xl flex bg-btn py-2 px-12 mt-8 w-fit">Mostafa</span>
+            </div>
+            <input type="text" class="w-full h-20 rounded-lg bg-itemSingle  p-2" placeholder="Comment">
+            <div class="w-full flex">
+                <button class="text-1xl  rounded-b-lg bg-btnSingleHover px-12 py-2 m-auto">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <!--comments-->
+    <div class=" md:px-32 mt-3">
+        <span class="rounded-t-lg text-sm md:text-1xl flex bg-btn py-2 md:px-12 px-2 mt-8 w-fit">Mostafa</span>
+        <div class="m-auto bg-comment  w-full  shadow-3xl shadow-black rounded-lg  flex">
+            <p class="md:p-10  p-3  text-xs md:text-lg">In publishing and graphic design, Lorem ipsum is a
+                placeholder text commonly used to demonstrate the visual form of a document or a typeface
+                without relying</p>
+            <div class="flex flex-col justify-between w-1/5 items-end ">
+                <div class="bg-itemSingle text-xs  md:text-sm  w-fit md:p-2 p-1 rounded-bl-lg rounded-tr-lg">
+                    October 15, 2023
+                </div>
+
+                <button class="bg-linkHover text-xs  md:text-sm mt-5  w-fit md:p-2 p-1 rounded-tl-lg  rounded-br-lg">
+                    Response
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="pt-8 flex justify-evenly flex-wrap bg-singleBody text-white gap-3 pb-36 md:pb-10">
+    <div class="flex flex-col gap-3 w-fit mb-3">
+        <b class="text-center border-solid border-red-700 border-b-2 pb-3">Top titles</b>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Top
+            Move
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Windows
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Mac
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Linux
+        </button>
+    </div>
+    <div class="flex flex-col gap-3 w-fit mb-3">
+        <b class="text-center border-solid border-red-700 border-b-2 pb-3">Top titles</b>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Top
+            Move
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Windows
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Mac
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Linux
+        </button>
+    </div>
+    <div class="flex flex-col gap-3 w-fit mb-3">
+        <b class="text-center border-solid border-red-700 border-b-2 pb-3">Top titles</b>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Top
+            Move
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Windows
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Mac
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Linux
+        </button>
+    </div>
+    <div class="flex flex-col gap-3 w-fit mb-3">
+        <b class="text-center border-solid border-red-700 border-b-2 pb-3">Top titles</b>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Top
+            Move
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Windows
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Mac
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Linux
+        </button>
+    </div>
+    <div class="flex flex-col gap-3 w-fit mb-3">
+        <b class="text-center border-solid border-red-700 border-b-2 pb-3">Top titles</b>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Top
+            Move
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Windows
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">Mac
+        </button>
+        <button class="bg-gray-500 text-gray-400 px-8 py-1 rounded-lg  hover:bg-btn hover:text-white">
+            Linux
+        </button>
+    </div>
+
+</footer>
+<section class="bg-footerMenu w-full  fixed mt-12 z-50 bottom-0 md:hidden block">
+    <div class="text-white flex justify-around p-5">
+        <svg stroke="#ffffff" viewBox="0 0 24 24" fill="none" width="40px" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-house" data-v-acd01b48="">
+            <path d="M14.2495 19.4994V14.9993C14.2495 14.8004 14.1704 14.6096 14.0298 14.469C13.8891 14.3283 13.6984 14.2493 13.4995 14.2493H10.4995C10.3005 14.2493 10.1098 14.3283 9.96912 14.469C9.82847 14.6096 9.74945 14.8004 9.74945 14.9993V19.4994C9.74945 19.6983 9.67045 19.889 9.52981 20.0297C9.38918 20.1703 9.19844 20.2494 8.99954 20.2494L4.50009 20.25C4.40159 20.25 4.30406 20.2306 4.21305 20.1929C4.12205 20.1552 4.03936 20.1 3.9697 20.0304C3.90005 19.9607 3.8448 19.878 3.8071 19.787C3.7694 19.696 3.75 19.5985 3.75 19.5V10.8318C3.75 10.7273 3.77183 10.624 3.8141 10.5284C3.85637 10.4329 3.91814 10.3472 3.99545 10.2769L11.4949 3.45803C11.633 3.3325 11.8129 3.26295 11.9995 3.26294C12.186 3.26293 12.3659 3.33248 12.504 3.45799L20.0045 10.2769C20.0818 10.3472 20.1436 10.4329 20.1859 10.5284C20.2282 10.624 20.25 10.7274 20.25 10.8319V19.5C20.25 19.5985 20.2306 19.696 20.1929 19.787C20.1552 19.878 20.1 19.9607 20.0303 20.0304C19.9606 20.1 19.878 20.1552 19.7869 20.1929C19.6959 20.2306 19.5984 20.25 19.4999 20.25L14.9994 20.2494C14.8005 20.2494 14.6097 20.1703 14.4691 20.0297C14.3285 19.889 14.2494 19.6983 14.2495 19.4994V19.4994Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+
+        <svg stroke="#ffffff" id="hamburger_menu" viewBox="0 0 24 24" fill="none" width="40px"
+             xmlns="http://www.w3.org/2000/svg" class="i30con-list" data-v-acd01b48="">
+            <path d="M3.75 12H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3.75 6H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3.75 18H20.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+        </svg>
+
+        <svg width="40px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-newspaper" data-v-acd01b48="">
+            <path d="M9 10.5H16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M9 13.5H16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M3 18.75C3.39782 18.75 3.77936 18.592 4.06066 18.3107C4.34196 18.0294 4.5 17.6478 4.5 17.25V6C4.5 5.80109 4.57902 5.61032 4.71967 5.46967C4.86032 5.32902 5.05109 5.25 5.25 5.25H20.25C20.4489 5.25 20.6397 5.32902 20.7803 5.46967C20.921 5.61032 21 5.80109 21 6V17.25C21 17.6478 20.842 18.0294 20.5607 18.3107C20.2794 18.592 19.8978 18.75 19.5 18.75H3Z"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+            <path d="M3 18.75C2.60218 18.75 2.22064 18.592 1.93934 18.3107C1.65804 18.0294 1.5 17.6478 1.5 17.25V8.25"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+
+        <svg width="40px" stroke="#ffffff" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="i30con-signIn" data-v-acd01b48="">
+            <path d="M8.81323 16.4375L12.7497 12.5L8.81323 8.5625" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" data-v-acd01b48=""></path>
+            <path d="M2.25 12.5H12.7472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  data-v-acd01b48=""></path>
+            <path d="M12.75 4.25H18C18.1989 4.25 18.3897 4.32902 18.5303 4.46967C18.671 4.61032 18.75 4.80109 18.75 5V20C18.75 20.1989 18.671 20.3897 18.5303 20.5303C18.3897 20.671 18.1989 20.75 18 20.75H12.75"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-v-acd01b48=""></path>
+        </svg>
+    </div>
+</section>
+
+<section class=" hidden   h-screen w-full   fixed left-0 bottom-0 z-40" id="menu">
+    <div class="w-full bg-footerMenu h-5/6 bottom-0 overflow-scroll absolute p-5">
+        <ul class="flex flex-col gap-8">
+            <li class="fixed flex-row w-full">
+                <div>
+                    <i id="close" class="fa-regular fa-circle-xmark text-white text-2xl"></i>
+                </div>
+                <div class=" flex justify-center -mt-10">
+                    <img src="assets/img/UMovies.png"  alt="">
+                </div>
+            </li>
+            <li class="mt-12">
+                <div class="flex justify-between">
+                    <div class="flex text-red-600">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg"
+                             class="i30con-video-camera __web-inspector-hide-shortcut__" data-v-acd01b48="">
+                            <path d="M2.25 5.625H14.25C15.0456 5.625 15.8087 5.94107 16.3713 6.50368C16.9339 7.06629 17.25 7.82935 17.25 8.625V17.625C17.25 17.8239 17.171 18.0147 17.0303 18.1553C16.8897 18.296 16.6989 18.375 16.5 18.375H4.5C3.70435 18.375 2.94129 18.0589 2.37868 17.4963C1.81607 16.9337 1.5 16.1706 1.5 15.375V6.375C1.5 6.17609 1.57902 5.98532 1.71967 5.84467C1.86032 5.70402 2.05109 5.625 2.25 5.625V5.625Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M17.25 10.5L22.5 7.5V16.5L17.25 13.5" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Move</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-tv" data-v-acd01b48="">
+                            <path d="M20.25 6.75024H3.75C3.33579 6.75024 3 7.08603 3 7.50024V18.7502C3 19.1645 3.33579 19.5002 3.75 19.5002H20.25C20.6642 19.5002 21 19.1645 21 18.7502V7.50024C21 7.08603 20.6642 6.75024 20.25 6.75024Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M7.5 2.25024L12 6.75024L16.5 2.25024" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Serial</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-smiley-wink" data-v-acd01b48="">
+                            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M8.625 11.25C9.24632 11.25 9.75 10.7463 9.75 10.125C9.75 9.50368 9.24632 9 8.625 9C8.00368 9 7.5 9.50368 7.5 10.125C7.5 10.7463 8.00368 11.25 8.625 11.25Z"
+                                  fill="currentcolor" data-v-acd01b48=""></path>
+                            <path d="M14.25 10.125H16.5" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                            <path d="M15.898 14.2498C15.5029 14.9339 14.9347 15.5021 14.2504 15.8971C13.5662 16.2921 12.79 16.5 11.9999 16.5C11.2099 16.5 10.4337 16.2921 9.74944 15.8971C9.06519 15.5021 8.49694 14.934 8.10181 14.2498"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Anime</span>
+                    </div>
+                </div>
+            </li>
+            <li class="archive ">
+                <div class="flex justify-between">
+                    <div class="flex text-red-600">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-archive" data-v-acd01b48="">
+                            <path d="M21 5.25H3C2.58579 5.25 2.25 5.58579 2.25 6V8.25C2.25 8.66421 2.58579 9 3 9H21C21.4142 9 21.75 8.66421 21.75 8.25V6C21.75 5.58579 21.4142 5.25 21 5.25Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M20.25 9V18C20.25 18.1989 20.171 18.3897 20.0303 18.5303C19.8897 18.671 19.6989 18.75 19.5 18.75H4.5C4.30109 18.75 4.11032 18.671 3.96967 18.5303C3.82902 18.3897 3.75 18.1989 3.75 18V9"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M9.75 12.75H14.25" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Archive</span>
+                    </div>
+                    <div class=" arrow_menu">
+                        <svg width="32px" stroke="#FF0000" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-arrow" data-v-acd01b48="">
+                            <path d="M4.5 15L12 7.5L19.5 15" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="border-red-700 border-solid border_menu border-b-2"></div>
+                <div class="archive_popup hidden rounded-lg p-3 overflow-scroll w-full mt-4 h-60 ">
+                    <ul>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="archive">
+                <div class="flex justify-between">
+                    <div class="flex">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-dotsnine" data-v-acd01b48="">
+                            <path d="M5.625 6.75C6.24632 6.75 6.75 6.24632 6.75 5.625C6.75 5.00368 6.24632 4.5 5.625 4.5C5.00368 4.5 4.5 5.00368 4.5 5.625C4.5 6.24632 5.00368 6.75 5.625 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 6.75C12.6213 6.75 13.125 6.24632 13.125 5.625C13.125 5.00368 12.6213 4.5 12 4.5C11.3787 4.5 10.875 5.00368 10.875 5.625C10.875 6.24632 11.3787 6.75 12 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 6.75C18.9963 6.75 19.5 6.24632 19.5 5.625C19.5 5.00368 18.9963 4.5 18.375 4.5C17.7537 4.5 17.25 5.00368 17.25 5.625C17.25 6.24632 17.7537 6.75 18.375 6.75Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M5.625 13.125C6.24632 13.125 6.75 12.6213 6.75 12C6.75 11.3787 6.24632 10.875 5.625 10.875C5.00368 10.875 4.5 11.3787 4.5 12C4.5 12.6213 5.00368 13.125 5.625 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 13.125C12.6213 13.125 13.125 12.6213 13.125 12C13.125 11.3787 12.6213 10.875 12 10.875C11.3787 10.875 10.875 11.3787 10.875 12C10.875 12.6213 11.3787 13.125 12 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 13.125C18.9963 13.125 19.5 12.6213 19.5 12C19.5 11.3787 18.9963 10.875 18.375 10.875C17.7537 10.875 17.25 11.3787 17.25 12C17.25 12.6213 17.7537 13.125 18.375 13.125Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M5.625 19.5C6.24632 19.5 6.75 18.9963 6.75 18.375C6.75 17.7537 6.24632 17.25 5.625 17.25C5.00368 17.25 4.5 17.7537 4.5 18.375C4.5 18.9963 5.00368 19.5 5.625 19.5Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M12 19.5C12.6213 19.5 13.125 18.9963 13.125 18.375C13.125 17.7537 12.6213 17.25 12 17.25C11.3787 17.25 10.875 17.7537 10.875 18.375C10.875 18.9963 11.3787 19.5 12 19.5Z"
+                                  data-v-acd01b48=""></path>
+                            <path d="M18.375 19.5C18.9963 19.5 19.5 18.9963 19.5 18.375C19.5 17.7537 18.9963 17.25 18.375 17.25C17.7537 17.25 17.25 17.7537 17.25 18.375C17.25 18.9963 17.7537 19.5 18.375 19.5Z"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class="text-white mt-1 ml-2">Genre</span>
+                    </div>
+                    <div class=" arrow_menu">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-arrow" data-v-acd01b48="">
+                            <path d="M4.5 15L12 7.5L19.5 15" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="border-red-700 border-solid border_menu border-b-2"></div>
+                <div class="archive_popup hidden rounded-lg p-3 overflow-scroll w-full mt-4 h-60 ">
+                    <ul>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Move</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Mini Series</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            anime</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Animation</a></li>
+                        <li class="group mt-2 text-white hover:text-red-700 hover:cursor-pointer font-medium"><a
+                                href="#" class="flex gap-1">
+                            <div class="border-gray-400 text-0xl w-5 h-2 border-solid border-b-2 mt-2 group-hover:text-red-700"></div>
+                            Documentary</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between">
+                    <div class="flex text-white">
+                        <svg width="32px" stroke="#ffffff" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="i30con-info" data-v-acd01b48="">
+                            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                  data-v-acd01b48=""></path>
+                            <path d="M11.25 11.25H12V16.5H12.75" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" data-v-acd01b48=""></path>
+                            <path d="M11.8125 9C12.4338 9 12.9375 8.49632 12.9375 7.875C12.9375 7.25368 12.4338 6.75 11.8125 6.75C11.1912 6.75 10.6875 7.25368 10.6875 7.875C10.6875 8.49632 11.1912 9 11.8125 9Z"
+                                  data-v-acd01b48=""></path>
+                        </svg>
+                        <span class=" mt-1 ml-2">Contact Us</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<script rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
